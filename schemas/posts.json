@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "posts",
+  "description": "collection of user posts",
+
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "userId": { "type": "number", "required": true  },
+      "id": { "type": "number", "required": true  },
+      "title": { "type": "string", "required": false  },
+      "body": { "type": "string", "required": false  }
+    }
+  }
+}
